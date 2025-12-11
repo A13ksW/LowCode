@@ -18,28 +18,31 @@ Na ich podstawie wyliczane są m.in.:
 - top 5 najbardziej komentowanych postów.
 
 ## Wizualizacje
-
 W projekcie znajdują się wykresy:
 - wykres słupkowy: liczba postów per użytkownik,
 - wykres słupkowy: procent wykonanych TODOs,
 - wykres słupkowy: top 5 najczęściej komentowanych postów.
 
+## Podgląd aplikacji
+![Screenshot aplikacji](image-1.png)
+
 ## Demo aplikacji
-
  **Działająca wersja online:**  
-https://TUTAJ-WKLEJ-LINK-ZE-STREAMLIT
+https://lowcode-6k7nziebgumemgnfd8ggim.streamlit.app/
 
-## 🗂 Repozytorium
+## Repozytorium
+**GitHub:**  
+https://github.com/A13ksW/LowCode
 
-👉 **GitHub:**  
-https://github.com/TWOJ-LOGIN/TWOJE-REPO
+## Jak użyłem AI (ChatGPT 5.1)
 
-## 🧩 Uruchomienie lokalne
+Podczas realizacji projektu korzystałem/am z ChatGPT jako narzędzia pomocniczego. AI zostało użyte w następujący sposób:
 
-Aby uruchomić aplikację na własnym komputerze:
+- do zaplanowania struktury projektu (podział na pobieranie danych, obliczanie metryk i wizualizacje),
+- do wyjaśnienia, jak działa Streamlit i jak poprawnie uruchomić aplikację lokalnie,
+- do wygenerowania przykładowych fragmentów kodu oraz ich optymalizacji,
+- do pomocy w debugowaniu problemów (np. konfiguracja środowiska, Git, deploy na Streamlit Cloud),
+- do przygotowania szkicu pliku README.md (opis projektu, sekcje, instrukcja uruchomienia),
+- do wyjaśnień krok po kroku, gdy pojawiały się błędy podczas pracy.
 
-```bash
-git clone https://github.com/TWOJ-LOGIN/TWOJE-REPO.git
-cd TWOJE-REPO
-pip install -r requirements.txt
-streamlit run app.py
+Wszystkie elementy projektu zostały przeze mnie uruchomione, sprawdzone i dostosowane — AI było wsparciem, a nie narzędziem tworzącym całość automatycznie.
